@@ -9,34 +9,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
  rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 
 <body class="body">
    <header class="page-header">
-      <Nav class="page-navigation">
-         <a class="page-header-logo link" href="./index.html">Web<span class="span">Studio</span></a>
-   
-         <ul class="header-menu list">
-            <li><a class="header-menu-list link" href="./index.html">Studio</a></li>
-            <li><a class="header-menu-list link" href="./portfolio.html">Portfolio</a></li>
-            <li><a class="header-menu-list link" href="">Contacts</a></li>
-         </ul>
-      </Nav>
-      <address class="adress">
-         <ul class="adress-header list">
-            <li><a class="adress-contact-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="adress-contact-mail link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-         </ul>
-      </address>
-   </header>
+      <div class="page-header-container container">
+        <Nav class="page-navigation">
+          <a class="page-header-logo link" href="./index.html">Web<span class="span">Studio</span></a>
+          
+          <ul class="header-menu list">
+            <li ><a class="header-menu-list link" href="./index.html">Studio</a></li>
+            <li ><a class="header-menu-list link" href="./portfolio.html">Portfolio</a></li>
+            <li ><a class="header-menu-list link" href="" >Contacts</a></li>
+          </ul>
+          </Nav>
+          <address class="adress">
+            <ul class="adress-header list">
+              <li><a class="adress-contact-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+              <li><a class="adress-contact-mail link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            </ul>
+          </address>
+      </div>
+    </header>
+    
 
       <main>
   <!-- 1 -->
-      <section class="port-first-section">
+      <section class="port-first-section section">
         <h1 hidden>fea</h1>
-        <ul class="list">
+        <ul class="buttons-list list">
             <li><button class="bts-one link" type="button">All</button></li>
             <li><button class="bts-one link" type="button">Web Site</button></li>
             <li><button class="bts-one link" type="button">App</button></li>
@@ -44,7 +48,7 @@
             <li><button class="bts-one link" type="button">Marketing</button></li>
         </ul>
 
-        <ul class="list">
+        <ul class="workers list">
          <li>
             <a class="link" href="#"><img src="./images/portfolio/project-card1/squoosh/bankapp.jpg"  alt="bankapp" height="300" width="360">
                <h2 class="header-text">Banking App Interface Concept</h2>

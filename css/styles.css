@@ -8,27 +8,58 @@
     --accent-color: #4D5AE5;
     --btn-hover-color: #404bbf;
     }
+      
+    ul, ol {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
     
-.list {list-style: none;}
+    .list {list-style: none;}
         
 .link {text-decoration: none;}
 
 .adress {font-style: normal;}
+[adress]{display: block;}
+
+
 
 .body {
-    font-family: "Roboto", sans-serif;
+font-family: "Roboto", sans-serif;
 background-color:#FFFFFF;
 color: #434455;
 position: absolute;
-width: 1440px;
-height: 72px;
-left: 0px;
-top: 0px;
 background: #FFFFFF;
-border-bottom: 1px solid #E7E9FC;
+border-bottom: 1px solid #222c8d;
 }
 
+.page-header {
+    background-color: #ccc;
+}
 
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 3px solid green;
+}
+
+.page-header-container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.page-navigation {
+    display: flex;
+    align-items:center;
+    column-gap: 76px;
+    
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+}
 
 .main-header {
 font-family: 'Roboto', sans-serif;
@@ -60,6 +91,8 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
+
+
 .page-header-logo,.our-footer-a {
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
@@ -71,6 +104,12 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
+margin-right: 76px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
 }
 
 .page-header-logo>span {
@@ -79,6 +118,14 @@ color:#2e2f42;
 
 .our-footer-a>span {
 color: #f4f4fd;
+}
+
+.header-menu {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
 }
 
 .header-menu-list {
@@ -93,6 +140,14 @@ color: #f4f4fd;
 .header-menu-list:hover,
 .header-menu-list:focus {
 color: #404bbf;}
+/* ???? під питанням */
+.adress-header {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+}
 
 .adress-contact-mail {
 font-size: 16px;
@@ -106,10 +161,15 @@ color: #434455;
     color: #404bbf ; 
 }
 
+
+
 .first-section {
     background-color:#2e2f42;
+    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
-
+/* кнопка */
 .modal-open-btn {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -119,6 +179,13 @@ color: #434455;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+
+    border-radius: 4px;
+    padding: 16px 32px 16px 32px;
+    display: inline-block;
+    min-width: 169px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .modal-open-btn:hover,
@@ -139,15 +206,22 @@ color: #434455;
     background-color: #F4F4FD;
 }
 
+.four-section-assembly {
+    display: flex;
+    gap: 24px;
+}
+
 .four-section-assembly-list-one {
     background-color: #FFFFFF;
+    flex-basis: calc((100% - 48%)/4);
+    border-radius: 0 0 4px 4px;
 
 }
 
 .our-footer-end {
     background-color:#2e2f42 ;
 }
-
+/* кнопка */
 .bts-one {
     background-color:  #F4F4FD;
     font-family: "Roboto", sans-serif;
@@ -157,6 +231,12 @@ color: #434455;
     letter-spacing: 0.04em;
     color: #4d5ae5;
     cursor: pointer;
+
+    border-radius: 4px;
+    padding: 12px 24px 12px 24px;
+    display: inline-block;
+    min-width: 69px;
+    border: 1px solid #E7E9FC;
 }
 
 .bts-one:hover,
@@ -173,4 +253,53 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
+max-width: 264pxим ;
+}
+/* порфолио  */
+.port-first-section {
+    padding:  96px 0 120px ;
+}
+
+.buttons-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+    border-radius: 4px;
+}
+
+.workers {
+    display: flex;
+    column-gap: 24px;
+    gap: 48px 24px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.x {
+    width: 1440px;
+    padding-left: auto;
+    padding-right: auto;
+   outline: 2px solid tomato;
+}
+
+.section {
+
+}
+
+.box {
+    outline: 2px solid red;
+}
+
+*, ::after, ::before {
+box-sizing: border-box;
+}
+
+li {
+    display: list-item;
+}
+
+main {
+display: block;
 }
