@@ -318,7 +318,13 @@ padding-bottom: 0;
     margin-bottom: 8px
 }
 
+
+
 .adress {
 align-items: center; 
+}
+
+[button] {
+    display: block;
 }
 
