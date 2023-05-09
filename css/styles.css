@@ -182,9 +182,10 @@ color: #434455;}
     height: 56px;
     border: none;}
 
-.display {
+[button]{display:block;}
+/* .display {
     display: block; 
-}
+} */
 
 .modal-open-btn:hover,
 .modal-open-btn:focus {background-color: #404BBF;}
