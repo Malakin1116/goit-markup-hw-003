@@ -164,6 +164,7 @@ color: #434455;}
     padding-bottom: 188px;}
 /* кнопка */
 .modal-open-btn {
+    display: block;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -172,7 +173,7 @@ color: #434455;}
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    display: block;
+    
     border-radius: 4px;
     padding: 16px 32px 16px 32px;
     display: inline-block;
