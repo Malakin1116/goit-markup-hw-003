@@ -53,7 +53,6 @@ border-bottom: 1px solid #222c8d;}
 .page-navigation {
 align-items: center;
 display: flex;
-
 column-gap: 76px; 
 flex-direction: row;
 align-items: flex-start;
@@ -320,3 +319,4 @@ padding-bottom: 0;
     border-top: none;
     margin-bottom: 8px
 }
+
