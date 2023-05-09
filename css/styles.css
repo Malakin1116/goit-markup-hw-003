@@ -173,7 +173,6 @@ color: #434455;}
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    
     border-radius: 4px;
     padding: 16px 32px 16px 32px;
     display: inline-block;
@@ -182,6 +181,10 @@ color: #434455;}
     margin: 0 auto;
     height: 56px;
     border: none;}
+
+.display {
+    display: block; 
+}
 
 .modal-open-btn:hover,
 .modal-open-btn:focus {background-color: #404BBF;}
