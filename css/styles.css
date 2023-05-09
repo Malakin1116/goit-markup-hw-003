@@ -41,8 +41,6 @@ border-bottom: 1px solid #222c8d;}
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-
-    outline: 3px solid green;
 }
 
 
@@ -53,9 +51,10 @@ border-bottom: 1px solid #222c8d;}
     }
 
 .page-navigation {
-    display: flex;
-    align-items:center;
-    column-gap: 76px; 
+align-items: center;
+display: flex;
+
+column-gap: 76px; 
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
