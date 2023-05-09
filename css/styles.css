@@ -104,12 +104,10 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
 margin-right: 76px;
-display: flex;
 flex-direction: row;
-align-items: center;
 padding: 0px;
 margin-top: 24px;
-    margin-bottom: 24px;}
+margin-bottom: 24px;}
 
 .page-header-logo>span {color:#2e2f42;}
 
