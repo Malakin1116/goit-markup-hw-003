@@ -18,6 +18,10 @@
         
 .link {text-decoration: none;}
 
+*, ::after, ::before {
+    box-sizing: border-box;}
+    
+
 .adress {font-style: normal;}
 [adress]{display: block;}
 
@@ -284,8 +288,6 @@ img {display: block}
 
 .header-list {margin-bottom: 8px; }
 
-*, ::after, ::before {
-box-sizing: border-box;}
 
 li {display: list-item;}
 
