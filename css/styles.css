@@ -190,7 +190,8 @@ color: #434455;}
 .modal-open-btn:hover,
 .modal-open-btn:focus {background-color: #404BBF;}
 
-.secend-section {padding-top: 0; padding-bottom: 120px;}
+/* з 0 не приймає */
+.secend-section {padding-top: 120px; padding-bottom: 120px;}
 
 .three-section {padding-bottom: 120px;}
 
