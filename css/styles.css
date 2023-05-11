@@ -100,7 +100,7 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color);
 margin-bottom: 8px}
 
-.page-header-logo,.our-footer-a {
+.page-header-logo {
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -112,10 +112,22 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--accent-color);
 flex-direction: row;
+margin-right: 76px;
 padding: 24px 0 24px 0;}
 
 .our-footer-a {
-    padding: 0 0 17.5px 0;
+    font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+line-height: 1.17;
+display: inline-block;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--accent-color);
+flex-direction: row;
+margin-bottom: 16px;
 }
 
 .page-header-logo>span {color:var(--primary-text-color);}
