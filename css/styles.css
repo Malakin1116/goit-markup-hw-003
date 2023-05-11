@@ -40,7 +40,8 @@ font-family: "Roboto", sans-serif;
 background-color:var(--primary-bg-color);
 color: var(--title-text-color);
 background: var(--primary-bg-color);
-border-bottom: 1px solid #222c8d;}
+border-bottom: 1px solid #222c8d;
+width: 1158px;}
 
 .page-header {
     background-color: var(--primary-bg-color);
