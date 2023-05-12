@@ -11,9 +11,6 @@
     h1, h2, h3, h4, h5, h6, p, ul {
         margin: 0;
         padding: 0;
-        font-family: Arial;
-        font-size: 16px;
-        line-height: 1.5;
       }
       
     ul, ol {
@@ -41,7 +38,7 @@ background-color:var(--primary-bg-color);
 color: var(--title-text-color);
 background: var(--primary-bg-color);
 border-bottom: 1px solid #222c8d;
-width: 1158px;}
+}
 
 .page-header {
     background-color: var(--primary-bg-color);
@@ -60,14 +57,12 @@ width: 1158px;}
     justify-content: space-between;}
 
 .page-navigation {
-align-items: center;
+
 display: flex;
-column-gap: 76px; 
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
-gap: 40px;
-align-items: center;}
+}
 
 .main-header {
 font-family: 'Roboto', sans-serif;
@@ -79,7 +74,7 @@ letter-spacing: 0.02em;
 color: var(--primary-bg-color);
 max-width: 496px;
 text-align: center;
-margin: 48px auto;
+margin: 0 auto 48px auto;
 }
     
 .text-rob {font-family: 'Roboto', sans-serif;
