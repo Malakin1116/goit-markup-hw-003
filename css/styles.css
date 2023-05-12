@@ -57,7 +57,7 @@ border-bottom: 1px solid #222c8d;
     justify-content: space-between;}
 
 .page-navigation {
-
+align-items: center;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
